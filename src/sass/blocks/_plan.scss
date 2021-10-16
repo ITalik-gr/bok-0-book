@@ -1,0 +1,111 @@
+.plan {
+  padding: 160px 0px;
+  &-title {
+    max-width: 870px;
+    text-align: center;
+  }
+  &-wrap {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  &-card {
+    width: 430px;
+    height: 685px;
+    padding: 60px;
+    background: #FFFFFF;
+    border: 1px solid rgba(51, 51, 153, 0.2);
+    box-sizing: border-box;
+    border-radius: 23px;
+    &__top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 84px;
+      &::before {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -32px;
+        content: '';
+        width: 240px;
+        height: 1px;
+        background-color:#00CC99;
+      }
+    }
+    &__body {
+
+    }
+    &__bottom {
+
+    }
+    &__title {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 60px;
+      color: #000099;
+      margin-bottom: 32px;
+    }
+    &__price {
+      font-weight: 900;
+      font-size: 67px;
+      line-height: 60px;
+      color: #00CC99;
+      &-date {
+        font-weight: 400;
+        font-size: 27px;
+        color: #333399;
+      }
+    }
+    &__list {
+      padding-left: 30px;
+      margin-bottom: 52px;
+      &-item {
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(51, 51, 153, 0.2);
+        position: relative;
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:before {
+          top: 50%;
+          transform: translateY(-50%);
+          left: -30px;
+          width: 24px;
+          height: 24px;
+          content: '';
+          position: absolute;
+          background-image: url(../img/close.svg);
+          background-repeat: no-repeat;
+          background-position: 0 0;
+        }
+      }
+      &-active {
+        color: #333399;
+        &::before {
+          background-image: url(../img/check.svg);
+        }
+      }
+    }
+    &__buttons {
+      display: flex;
+      justify-content: center;
+    }
+    &-btn {
+
+    }
+  }
+  &-info {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 32px;
+    padding-left: 70px;
+    color: #333399;
+  }
+}

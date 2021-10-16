@@ -1,0 +1,45 @@
+.rep {
+  background: #F5F9FF;
+  padding: 160px 0px;
+  &-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 120px;
+  }
+  &-title {
+    position: relative;
+  }
+  &-descr {
+
+  }
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+  &-card {
+    padding: 40px;
+    max-width: 350px;
+    background: #FFFFFF;
+    border: 1px solid rgba(51, 51, 153, 0.1);
+    box-sizing: border-box;
+    border-radius: 15px;
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+      color: #000099;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 27px;
+      color: #333399;
+    }
+  }
+}

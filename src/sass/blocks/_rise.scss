@@ -1,0 +1,21 @@
+.rise {
+  background-image: url(../img/rise-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 707px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  &-image {
+    position: absolute;
+    left: 0;
+    bottom: 71px;
+  }
+  &-text {
+    padding-bottom: 172px;
+  }
+  &-title {
+    max-width: 571px;
+    font-size: 39.6px;
+  }
+}

@@ -1,0 +1,49 @@
+.promo {
+  padding: 160px 0px;
+  &-text {
+    margin-bottom: 120px;
+  }
+  &-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+    &__image {
+
+    }
+    &__text {
+      max-width: 430px;
+    }
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+      color: #000099;
+      margin-bottom: 16px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 27px;
+      color: #333399;
+      a {
+        color: #333399;
+      }
+      p {
+
+      }
+    }
+  }
+  &-program {
+    margin-bottom: 0;
+  }
+  &-wrap {
+
+  }
+  &-left {
+
+  }
+  &-right {
+
+  }
+}

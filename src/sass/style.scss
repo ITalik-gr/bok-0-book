@@ -1,0 +1,89 @@
+
+
+@import 'libs/bootstrap-reboot.min';
+
+* {
+    font-family: 'URW Geometric';
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000099;
+}
+a {
+    &:hover {
+        text-decoration: none;
+
+    }
+}
+.text-color {
+    color: #00CC99;
+}
+.text-before {
+    position: relative;
+    margin-bottom: 56px;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -28px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 1px;
+        background-color: #333399;
+      }
+}
+.text-descr {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #333399;
+    p {
+      max-width: 562px;
+    }
+}
+.text-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.btn {
+    background: #00CC99;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    transition: .3s all;
+    &:hover {
+      text-decoration: none;
+      color: #FFF;
+      background: rgb(0, 187, 141);
+    }
+}
+@import 'blocks/header';
+@import 'blocks/gives';
+@import 'blocks/rise';
+@import 'blocks/step';
+@import 'blocks/rep';
+@import 'blocks/promo';
+@import 'blocks/plan';
+@import 'blocks/feedback';
+@import 'blocks/footer';
+
+@import 'base/media';

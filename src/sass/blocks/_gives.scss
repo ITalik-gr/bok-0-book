@@ -1,0 +1,23 @@
+
+.gives {
+  padding: 190px 0px 130px 0px;
+  &-text {
+    margin-bottom: 120px;
+  }
+  &-title {
+    text-align: center;
+  }
+  &-card {
+    &__image {
+      margin-bottom: 28px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 27px;
+      color: #333399;
+      p {
+        max-width: 228px;
+      }
+    }
+  }
+}
